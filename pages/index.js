@@ -23,36 +23,16 @@ export default function Home() {
         <h1>Rosy Step Application</h1>
         <div className={classes.gallery}>
           <div className={classes.figure}>
-            <Image
-              src={imageOne}
-              alt="email"
-              width={400}
-              height={200}
-            />
+           <img src='./imageOne.jpeg' alt='picture'/>
           </div>
           <div className={classes.figure}>
-            <Image
-              src={imageTwo}
-              alt="email"
-              width={400}
-              height={200}
-            />
+          <img src='./imageTwo.jpeg' alt='picture'/> 
           </div>
           <div className={classes.figure}>
-            <Image
-              src={imageThree}
-              alt="email"
-              width={400}
-              height={200}
-            />
+          <img src='./imageThree.jpeg' alt='picture'/>
           </div>
           <div className={classes.figure}>
-            <Image
-              src={imageFour}
-              alt="email"
-              width={400}
-              height={200}
-            />
+          <img src='./imageFour.jpeg' alt='picture'/>
           </div>
         </div>
         <div className={classes.rosy}>
